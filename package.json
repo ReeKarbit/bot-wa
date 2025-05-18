@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-sticker-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Sticker Maker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.22.1",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6",
+    "express": "^4.18.2",
+    "puppeteer": "^19.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
